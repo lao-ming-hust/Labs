@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <title>点亮实验室</title>
+<head>
+    <script>//点亮指定实验室
+        var ID = location.search.substring(1, location.search.length).split('=')[1]
+        if(ID==1)
+        {
+            document.write('<link rel="stylesheet" href="../css/lab1_light.css">');
+        }
+        else if(ID==2)
+        {
+            document.write('<link rel="stylesheet" href="../css/lab2_light.css">');
+        }
+        else if(ID==3)
+        {
+            document.write('<link rel="stylesheet" href="../css/lab3_light.css">');
+        }
+        else if(ID==4)
+        {
+            document.write('<link rel="stylesheet" href="../css/lab4_light.css">');
+        }
+
+    </script>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../css/light.css" />
+</head>
+<body style="overflow-x: hidden;">
+    
+<div class="text h">
+    欢迎来到
+</div>
+<div class="text assistant" id="text assistant">
+    XXX实验室
+</div>
+
+<div class="text tip" id="text tip">
+    页面将在5s后自动跳转...
+</div>
+<script>
+    var ID = location.search.substring(1, location.search.length).split('=')[1]
+if(ID==1)
+{
+	document.getElementById('text assistant').innerHTML='武汉国家光电研究中心';
+}
+if(ID==2)
+{
+	document.getElementById('text assistant').innerHTML='精密重力测量研究设施';
+}
+if(ID==3)
+{
+	document.getElementById('text assistant').innerHTML='国家数字化设计与制造创新中心';
+}
+if(ID==4)
+{
+	document.getElementById('text assistant').innerHTML='国家脉冲强磁场科学中心';
+}
+</script>
+<img src="../images/map.png" alt="map" class="myimg map">
+<img src="../images/lab.png" alt="lab1" class="myimg lab1" >
+<img src="../images/lab.png" alt="lab2" class="myimg lab2" >
+<img src="../images/lab.png" alt="lab3" class="myimg lab3" >
+<img src="../images/lab.png" alt="lab4" class="myimg lab4" >
+<img src="../images/lab_light.png" alt="lab1_light" class="myimg lab1_light" >
+<img src="../images/lab_light.png" alt="lab2_light" class="myimg lab2_light" >
+<img src="../images/lab_light.png" alt="lab3_light" class="myimg lab3_light" >
+<img src="../images/lab_light.png" alt="lab4_light" class="myimg lab4_light" >
+
+<div class="grass g1"></div>
+<div class="grass g2"></div>
+<div class="grass g3"></div>
+<div class="grass g4"></div>
+
+<div class="spinner left"></div>
+<script>
+    setTimeout("document.getElementById('text tip').innerHTML='页面将在4s后自动跳转...';","1000")
+    setTimeout("document.getElementById('text tip').innerHTML='页面将在3s后自动跳转...';","2000")
+    setTimeout("document.getElementById('text tip').innerHTML='页面将在2s后自动跳转...';","3000")
+    setTimeout("document.getElementById('text tip').innerHTML='页面将在1s后自动跳转...';","4000")
+    setTimeout("window.location='../index.html'","5000")
+</script>
+
+</body>
+  <script type="text/javascript" charset="utf-8"  src="../js/background_ball.js"></script>
+</html>

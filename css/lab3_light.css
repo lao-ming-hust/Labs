@@ -1,0 +1,117 @@
+/*图片*/
+
+.spinner {
+    position: absolute;
+    left:260px;
+    top:230px;
+    width: 90px;
+    height: 90px;
+    margin: 100px auto;
+    background-color: red;
+    border-radius: 100%;
+    -webkit-animation: scaleout 3s infinite ease-in-out;
+    animation: scaleout 3s infinite ease-in-out;
+}
+.left {
+    background: #FFF26B
+}
+
+@-webkit-keyframes scaleout {
+    0% {
+        -webkit-transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 0;
+    }
+}
+@keyframes scaleout {
+    0% {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        opacity: 0;
+    }
+}
+.myimg{
+    position: absolute;
+    background-repeat:no-repeat;
+    background-attachment:fixed;	
+	
+	
+}
+	.map{
+		z-index: -4;
+		left: 10px;
+		top: 254px;
+		max-width:331px; 
+		max-height:143px;
+        opacity:1.0;
+        
+}
+        
+	
+	.lab1{
+		z-index: -1;
+		left: 31px;
+		top: 331px;
+		max-width:65px; 
+		max-height:66px;
+        
+	}
+	.lab2{
+		z-index: -1;
+		left: 102px;
+		top: 209px;
+		max-width:65px; 
+		max-height:66px;
+	}
+	.lab3{
+		z-index: -1;
+		left: 276px;
+		top: 342px;
+		max-width:65px; 
+		max-height:66px;
+        animation:myfirst 5s;
+        animation-fill-mode: forwards;
+	    -webkit-animation:myfirst 5s; /* Safari and Chrome */
+        -webkit-animation-fill-mode: forwards;
+	}
+	.lab4{
+		z-index: -1;
+		left: 285px;
+		top: 281px;
+		max-width:65px; 
+		max-height:66px;
+	}
+    .lab1_light{
+		z-index: -2;
+		left: 31px;
+		top: 331px;
+		max-width:65px; 
+		max-height:66px;
+	}
+	.lab2_light{
+		z-index: -2;
+		left: 102px;
+		top: 209px;
+		max-width:65px; 
+		max-height:66px;
+	}
+	.lab3_light{
+		z-index: -2;
+		left: 276px;
+		top: 342px;
+		max-width:65px; 
+		max-height:66px;
+	}
+	.lab4_light{
+		z-index: -2;
+		left: 285px;
+		top: 281px;
+		max-width:65px; 
+		max-height:66px;
+	}
