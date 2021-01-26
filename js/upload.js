@@ -26,7 +26,7 @@ function mySwich(num) {
 
 
 
-var url=window.location.href;
+var url=decodeURI(window.location.href);
 var lab_code=url.split('?')[1];
 lab_code=lab_code.split('=')[1];
 document.getElementById("lab_name").innerHTML=mySwich(lab_code);
