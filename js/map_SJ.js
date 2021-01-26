@@ -1,5 +1,5 @@
 var map = new AMap.Map('container', {
     resizeEnable: true,
-    zoom:11,
-    center: [118.397428, 30.90923]
+    zoom:15,
+    center: [114.5838,30.469875]
 });
