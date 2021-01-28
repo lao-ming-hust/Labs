@@ -1,0 +1,157 @@
+html{
+    width: 360px;
+    margin: 0px;
+}
+body{
+    width: 360px;
+    margin: 0px;
+}
+.title{ 
+    width: 360px;
+    height: 56px;
+    position: fixed;
+    background-color: rgb(34, 131, 182);
+    z-index: 5;
+}
+.back{
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 52px;
+    height: 52px;
+}
+.pagetitle{
+    margin-left: 140px;
+    margin-top: -62px;
+    width: 280px;
+    height: 940px; 
+    font-size: larger;       
+}
+#laboratories{
+    width: 360px;
+    height: 695px;
+    padding-top: 56px;
+    background-color: rgb(34, 131, 182);
+}
+.text1{
+    width: 150px;
+    height: 50px;
+    left: 23px;
+    top: 50px;
+    color: #505050;
+    font-size: 20px;
+    line-height: 70%;
+    text-align: left;
+    position:absolute;
+    z-index: 2;
+}
+.text2{
+    width: 150px;
+    height: 50px;
+    left: 23px;
+    top: 110px;
+    color: #505050;
+    font-size: 18px;
+    line-height: 70%;
+    text-align: left;
+    position:absolute;
+    z-index: 2;
+}
+.text3{
+    width: 150px;
+    height: 50px;
+    left: 23px;
+    top: 130px;
+    color: #505050;
+    font-size: 20px;
+    line-height: 70%;
+    text-align: left;
+    position:absolute;
+    z-index: 2;
+}
+.text4{
+    width: 320px;
+    height: 100px;
+    left: 23px;
+    top: 190px;
+    color: #505050;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: left;
+    position:absolute;
+    z-index: 2;
+}
+.text5{
+    width: 150px;
+    height: 50px;
+    left: 23px;
+    top: 340px;
+    color: #505050;
+    font-size: 20px;
+    line-height: 70%;
+    text-align: left;
+    position:absolute;
+    z-index: 2;
+}
+.text6{
+    width: 320px;
+    height: 100px;
+    left: 23px;
+    top: 400px;
+    color: #505050;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: left;
+    position:absolute;
+    z-index: 2;
+}
+.text7{
+    width: 150px;
+    height: 50px;
+    left: 23px;
+    top: 420px;
+    color: #505050;
+    font-size: 20px;
+    line-height: 70%;
+    text-align: left;
+    position:absolute;
+    z-index: 2;
+}
+.text8{
+    width: 320px;
+    height: 100px;
+    left: 23px;
+    top: 480px;
+    color: #505050;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: left;
+    position:absolute;
+    z-index: 2;
+}
+#box{
+	width: 330px;
+	height: 675px;
+	left: 15px;
+	top: 50px;
+	color: rgba(80, 80, 80, 1);
+	background-color:ivory;
+	font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    position:absolute;
+    z-index:1;
+}
+.img{
+    height: 190px;
+    left: 130px;
+    top: 25px;
+    position: absolute;
+    z-index:3;
+}
+.img1{
+    height: 190px;
+    left: 25px;
+    top: 550px;
+    position: absolute;
+    z-index:3;
+}
