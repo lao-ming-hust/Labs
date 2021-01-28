@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<script>//@Thickdream</script>
+<html>
+<head>
+<meta charset="utf-8"> 
+<link rel="stylesheet" type="text/css" href="./css/index.css" />
+
+</head>
+
+<body style="overflow-x: hidden;">
+	
+<script type="text/javascript" charset="utf-8"  src="./js/background_ball.js"></script>
+
+<title>首页</title>
+
+<div id="text_h">
+    主标题
+</div>
+
+<div id="text_assistant">
+    副标题
+</div>
+
+<div id="text_main">
+    <p>1.国家脉冲强磁场科学中心</p>
+	<p>2.国家数字化设计与制造创新中心</p>
+	<p>3.精密重力测量研究中心</p>
+	<p>4.武汉国家光电研究中心</p>
+</div>
+<div id="box"></div>
+<div id="box3"></div>
+<img src="./images/map.png" alt="map" class="myimg map" >
+<img src="./images/lab.png" alt="map" class="myimg lab1" >
+<img src="./images/lab.png" alt="map" class="myimg lab2" >
+<img src="./images/lab.png" alt="map" class="myimg lab3" >
+<img src="./images/lab.png" alt="map" class="myimg lab4" >
+
+<div class="grass g1"></div>
+<div class="grass g2"></div>
+<div class="grass g3"></div>
+<div class="grass g4"></div>
+<input type="button" value="活动介绍" class="button white" id="detail" onclick="getdetail()" />
+<input type="button" value="实验室列表" class="button blue" id="chart" onclick="getchart()"/>
+
+</body>
+<script>//按钮点击事件
+	function getdetail()
+	{
+		window.location.href="./pages/detail.html"
+	}
+	function getchart()
+	{
+		window.location.href="./pages/lab_list.html"
+	}
+</script>
+</html>

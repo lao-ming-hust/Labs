@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>实验室列表</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=no" />
+    <style>
+        html{
+            width: 360px;
+            margin: 0px;
+        }
+        body{
+            width: 360px;
+            margin: 0px;
+        }
+        .title{
+            width: 360px;
+            height: 56px;
+            position: fixed;
+            background-color: rgb(34, 131, 182);
+        }
+        .back{
+            margin-top: 4px;
+            margin-left: 4px;
+            width: 52px;
+            height: 52px;
+        }
+        .pagetitle{
+            margin-left: 130px;
+            margin-top: -62px;
+            width: 200px;
+            height: 100px; 
+            font-size: larger;       
+        }
+        .laboratories{
+            width: 360px;
+            height: 738px;
+            padding-top: 56px;
+            background-color: rgb(34, 131, 182);
+        }
+        .laboratory{
+            margin-left: 16px;
+            margin-top: 16px;
+            width: 156px;
+            height: 224px;
+            background-color: white;
+            border-radius: 8px;
+            float: left;
+            display: inline;
+        }
+        .top{
+            height: 16px;
+            width: 156px;
+            background-color: rgb(165, 204, 128);
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+        }
+        .picture{
+            width: 156px;
+            height: 128px;
+        }
+        .name{
+            width: 156px;
+            height: 80px;
+            background-color: rgb(229, 229, 229);
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            font-size: smaller;
+        }
+        .lname{
+            margin-top: 0px;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title" >
+        <div class="back" >            
+            <img onclick="window.location='../index.html'" src="../images/backbutton.png"/>
+        </div>
+        <div class="pagetitle">
+            <p style="color: white;">实验室列表</p>
+        </div>
+    </div> 
+    <div class="laboratories">
+        <li class="laboratory" onclick="window.location='../labs/GJMCCC.html'">
+            <div class="top">
+            </div>
+            <div class="picture">
+                <img class="picture" src="../images/house.png"/>
+            </div>
+            <div class="name">
+                <p class="lname">
+                    国家脉冲强磁场科学中心（筹）
+                </p>
+            </div>
+        </li>
+        <li class="laboratory" onclick="window.location='../labs/GJSZSJ.html'">
+            <div class="top">
+            </div>
+            <div class="picture">
+                <img class="picture" src="../images/house.png"/>
+            </div>
+            <div class="name">
+                <p class="lname">
+                    国家数字化设计与制造创新中心
+               </p>
+            </div>
+        </li>
+        <li class="laboratory" onclick="window.location='../labs/JMZLCL.html'">
+            <div class="top">
+            </div>
+            <div class="picture">
+                <img class="picture" src="../images/house.png"/>
+            </div>
+            <div class="name">
+                <p class="lname">
+                    精密重力测量研究设施
+               </p>
+            </div>
+        </li>
+        <li class="laboratory" onclick="window.location='../labs/WHGJGD.html'">
+            <div class="top">
+            </div>
+            <div class="picture">
+                <img class="picture" src="../images/house.png"/>
+            </div>
+            <div class="name">
+                <p class="lname">
+                    武汉国家光电研究中心
+               </p>
+            </div>
+        </li>
+    </div> 
+</body>
+</html>

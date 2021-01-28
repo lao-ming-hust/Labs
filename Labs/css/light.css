@@ -1,0 +1,81 @@
+<style>
+    @keyframes myfirst
+{
+	from {opacity:1.0;}
+	to {opacity:0;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+	from {opacity:1.0;}
+	to {opacity:0;}
+}
+.text
+{
+    z-index: -1;
+    position:absolute;
+}
+/*主标题*/
+    .h{
+   
+	width: 232px;
+	height: 61px;
+	left: 16px;
+	top: 93px;
+	color: rgba(80, 80, 80, 1);
+	font-size: 40px;
+	line-height: 100%;
+	text-align: left;
+    }
+    /*副标题*/
+    .assistant{
+    white-space:nowrap
+    width: 99px;
+	height: 30px;
+	left: 16px;
+	top: 154px;
+	color: rgba(80, 80, 80, 1);
+	font-size: 20px;
+	line-height: 150%;
+	text-align: left;
+    }
+.tip{
+    white-space:nowrap
+    width: 99px;
+	height: 30px;
+	left: 16px;
+	top: 450px;
+	color: rgba(80, 80, 80, 1);
+	font-size: 20px;
+	line-height: 150%;
+	text-align: left;
+    }
+    /*草（绿色矩形）*/
+.grass{
+	position: absolute;
+	z-index: -3;
+	width: 48px;
+	height: 48px;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(67, 207, 124, 1);
+	font-size: 14px;
+	line-height: 150%;
+	text-align: center;
+}
+	.g1{
+		left: 40px;
+		top: 353px;
+	}
+	.g2{
+		left: 111px;
+		top: 233px;
+	}
+	.g3{
+		left: 284px;
+		top: 360px;
+	}
+	.g4{
+		left: 293px;
+		top: 305px;
+	}
+</style>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<title>填写相关信息</title>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../css/regist.css" />
+
+
+</head>
+
+
+<body style="overflow: hidden;">
+<div id="main">
+
+<div class="text h">
+签到
+</div>
+<div class="text lab" id="lab_name">
+    XXX实验室
+</div>
+<div class="box"></div>
+<div class="text2 one ">
+    姓名
+</div>
+<div class="text2 two ">
+    学号
+</div>
+<div class="text2 three ">
+    学院
+</div>
+<div class="text2 four ">
+    手机
+</div>
+<img src="../images/lab.png" alt="lab" class="myimg" >
+
+<input type="text" id="name" value="请输入内容" class="textbox_input name" onclick="cls_1(this)" onblur="ini(this)">
+<input type="text" id="ID" value="请输入内容" class="textbox_input ID" onclick="cls_2(this)" onblur="ini(this)">
+<input type="text" id="school" value="请输入内容" class="textbox_input school" onclick="cls_3(this)" onblur="ini(this)">
+<input type="text" id="phone" value="请输入内容" class="textbox_input phone" onclick="cls_4(this)" onblur="ini(this)">
+
+<input type="button" value="确认" class="button" id="submit" onclick="check()"/>
+
+
+<p id="name_w" class="warn first"></p>
+<p id="ID_w" class="warn second"></p>
+<p id="school_w" class="warn third"></p>
+<p id="phone_w" class="warn fourth"></p>
+
+</div>
+
+<div class="mydialog body" id="d_body"></div>
+<div class="mydialog head" id="d_head">信息确认</div>
+<div class="mydialog decoration" id="d_d"></div>
+<p class="mydialog text_1" id="d_t1">3</p>
+<p class="mydialog text_2" id="d_t2">4</p>
+<p class="mydialog text_3" id="d_t3">5</p>
+<p class="mydialog text_4" id="d_t4">6</p>
+<input type="button" class="mydialog button_1" id="button_1" value="修改" onclick=exitdia()>
+<input type="button" class="mydialog button_2" id="button_2" value="提交" onclick=finalsubmit()>
+</body>
+<script type="text/javascript" charset="utf-8"  src="../js/background_ball.js"></script>
+<script type="text/javascript" charset="utf-8"  src="../js/upload.js"></script>
+
+</html>
