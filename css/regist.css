@@ -284,3 +284,12 @@
 	height:48px;
 	border:none;
 }
+.logo{
+	left: 300px ;
+	top: 30px ;
+	max-width:60px; 
+	max-height:60px;
+	position: absolute;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
