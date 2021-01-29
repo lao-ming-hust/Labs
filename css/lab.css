@@ -40,10 +40,9 @@ body{
 		background-color: rgb(34, 131,182);
 }
 #greenDiv{			
-		width: 52%;
-		height: 197px;
-		top: 94px;
-		left: 24%;
+		max-width: 62%;
+		top: 104px;
+		left: 19%;
 		position: absolute;
 		z-index: 2;
 }
@@ -109,7 +108,7 @@ body{
 		z-index: 2;
 }
 #container{
-		width: 286px;
+		width: 90%;
 		height: 287px;
 		left: 5%;		
 		text-align: center;
