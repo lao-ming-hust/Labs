@@ -2,16 +2,20 @@ html{
 		width: 360px;
 		height:1452px;
 	    margin: 0px;
+		max-width: 100%;
+		overflow-x: hidden;
 }
 body{
 		width: 360px;
 		background-color: rgb(34, 131,182);
 		margin:  0;
 		z-index: 0;
+		max-width: 100%;
+		overflow-x: hidden;
 }
 .title{
 		z-index: 10;
-		width: 360px;
+		width: 100%;
 		height: 56px;
 		position: fixed;
 		background-color: rgb(34, 131,182);
@@ -28,7 +32,7 @@ body{
 		z-index: 11;
 		margin-left: 60px;
 		margin-top: -62px;
-		width: 260px;
+		width: 72%;
 		max-height: 52px; 
 		color: white;
 		font-size: 18px;  	
@@ -36,17 +40,17 @@ body{
 		background-color: rgb(34, 131,182);
 }
 #greenDiv{			
-		width: 188px;
+		width: 52%;
 		height: 197px;
 		top: 94px;
-		left: 86px;
+		left: 24%;
 		position: absolute;
 		z-index: 2;
 }
 #grayDiv{
-		width: 328px;
+		width: 90%;
 		height: 94px;
-		left: 16px;
+		left: 5%;
 		top: 242px;
 		position: absolute;				
 		color: rgba(80, 80, 80, 1);
@@ -58,9 +62,9 @@ body{
 }
 .contentDiv{
 		position: absolute;				
-		width: 328px;
+		width: 90%;
 		height: 938px;
-		left: 16px;
+		left: 5%;
 		top: 336px;
 		color: rgba(80, 80, 80, 1);
 		background-color: rgba(229, 229, 229, 1);
@@ -71,21 +75,22 @@ body{
 }
 .labName{
 		position:absolute;
-		max-width: 200px;
+		max-width: 300px;
 		height: 45px;
 		color: rgba(80, 80, 80, 1);
-		font-size: 30px;
-		left: 16px;
+		font-size: 21px;
+		left: 5%;
 		top: 0px;
 		line-height: 150%;
 		text-align: left;	
+		font-weight:bold;
 		z-index: 2;
 }
 .pTitle{
 		position:absolute;
 		max-width: 80px;
 		height: 30px;
-		left: 16px;
+		left: 5%;
 		color: rgba(80, 80, 80, 1);
 		font-size: 20px;
 		line-height: 150%;
@@ -94,9 +99,9 @@ body{
 }
 .textDiv{
 		position:absolute;
-		width: 296px;
+		max-width: 90%;
 		height: 24px;
-		left: 16px;		
+		left: 5%;		
 		color: rgba(80, 80, 80, 1);
 		font-size: 4px;
 		line-height: 150%;
@@ -106,7 +111,7 @@ body{
 #container{
 		width: 286px;
 		height: 287px;
-		left: 16px;		
+		left: 5%;		
 		text-align: center;
 		position:absolute;
 		z-index: 2;
